@@ -1,0 +1,15 @@
+C:\Users\user\Exactly.Finance-Challenge>npx hardhat run --network localhost scripts/ETHPool-script.js
+Deploying ethPool with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+ethPool address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+
+ Contract deployment: ETHPool
+  Contract address:    0x5fbdb2315678afecb367f032d93f642f64180aa3
+  Transaction:         0x711d54b1aaffa6d8ce4f7affbabcc2a2f7760e403378c98e765420b8aa117858
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  Value:               0 ETH
+  Gas used:            1061291 of 1061291
+  Block #1:            0x3be3117d1b13ea5fc6c177988888f2d2c95ba67039a4d82f12d625a552567bef
+
+  console.log:
+    ETHPool deployed
