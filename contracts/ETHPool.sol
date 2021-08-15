@@ -19,9 +19,9 @@ contract ETHPool {
 
   mapping(address => User) public users;
 
-  constructor(address team) payable {
+  constructor(address _team) payable {
     console.log("ETHPool deployed");
-    Team = team;
+    Team = _team;
   }
 
   event Deposited(address, uint);
@@ -87,7 +87,6 @@ contract ETHPool {
   }
 
    receive() external payable {
-        emit Deposited(msg.sender, msg.value);
     }
 
 
